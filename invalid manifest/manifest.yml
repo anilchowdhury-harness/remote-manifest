@@ -1,3 +1,5 @@
 applications:
-- name: test-app
-  memory;
+- name: TESTAPP
+  memory: 500M
+  instances : 1
+  random-route: true
